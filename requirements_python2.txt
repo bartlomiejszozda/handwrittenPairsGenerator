@@ -1,0 +1,5 @@
+opencv-python==4.2.0.32
+editdistance==0.5.3
+tensorboard==1.14.0
+tensorflow==1.14.0
+imageio==2.6.0

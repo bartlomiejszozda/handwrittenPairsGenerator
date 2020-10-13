@@ -1,0 +1,166 @@
+time: 90.92264170013368
+commit 53d933f6719f074db1ff22f1ff7ea25139f6d587
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Tue Jul 14 23:12:33 2020 +0200
+
+    long performance test
+    last commit description write moved to specific module
+-----------------------------------
+time: 103.44921030011028
+time: 82.17831470025703
+time: 106.71330079995096
+commit aa31e347fa2b2214073c97e4426c2a6213f94a72
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Jul 19 12:15:05 2020 +0200
+
+    check number of generated images in shortPerformanceTest
+    add parameter to decide if copy mnistoFormattedFiles to gans directory
+-----------------------------------
+time: 91.35921090003103
+commit ab635eeb1fd05a185d522df145335e90ae75706b
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Jul 19 12:34:34 2020 +0200
+
+    refactor pre-commit short performanceTests
+-----------------------------------
+time: 83.79609790025279
+time: 80.05967049999163
+commit 7b33e6cd06aa58d9f1b977add6f866d1dbd1a84a
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Jul 19 12:34:34 2020 +0200
+
+    refactor pre-commit short performanceTests
+-----------------------------------
+time: 88.01712490012869
+commit a2c5d8500ce3577996fb607adc615e003186cd3f
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Jul 19 17:26:20 2020 +0200
+
+    refactoring continued
+-----------------------------------
+time: 88.34860289981589
+time: 98.81475010002032
+time: 80.94723040005192
+time: 88.73427879999508
+commit 1ea08b7477084b9991f3c5499395211338238bc5
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Tue Sep 1 23:35:33 2020 +0200
+
+    trying to use SimpleHTR as module, but some problems with loading models appears and result in abandon work on it.
+    SimpleHTR refactoring: create 'Recognition' class.
+-----------------------------------
+time: 54.1178765000077
+commit c5282f13ac9cd38c417a270aa3d85eae2c733e7f
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Tue Sep 1 23:41:21 2020 +0200
+
+    small changes in mainNetworks/gans/gans3.ipynb.
+-----------------------------------
+time: 54.60558050000691
+commit 5c926851407456be60684b8adb7267f43a4fe25f
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Wed Sep 2 00:26:55 2020 +0200
+
+    unify generation (one generate method for call after module import and for call using main() method) generatorNetworks/RNN/myGenerate.py
+-----------------------------------
+time: 72.60154030000001
+commit 0bd2f5c8850a87cd2ef1bae38be31796ca79a072
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Sep 27 18:07:46 2020 +0200
+
+    some TODOs lookup
+-----------------------------------
+time: 71.46112100000028
+commit a8c95aab6f125c559f7bbad788db631b1ad447b0
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Thu Oct 1 01:47:07 2020 +0200
+
+    count files using import
+-----------------------------------
+time: 60.9367038999917
+commit db7739c8a70d7ca7821302b5f34091740b589b86
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Thu Oct 1 02:21:58 2020 +0200
+
+    convert_to_mnist_format as import instead of call
+-----------------------------------
+time: 59.023564200033434
+commit 311dcca82e2baa83e74fd89a9aacb697b1082ba1
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Thu Oct 1 02:54:48 2020 +0200
+
+     renameFiles as import instead of call
+-----------------------------------
+time: 66.90295580000384
+commit 8a9e4ec38c5514581f919fac74fe8d1d29a9f4fe
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Fri Oct 2 02:24:18 2020 +0200
+
+    generatorInputFile moved passed by argument
+-----------------------------------
+time: 57.61460459999944
+commit 6b61a0be0d1a5fdbcdf79e4024dc0f57cac6870b
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Fri Oct 2 02:50:12 2020 +0200
+
+    delete not needed files,
+    some clean ups
+-----------------------------------
+time: 56.31470540000009
+commit 7ed2187eeddfef735e4b67d272a19451114898f6
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Thu Oct 8 03:16:12 2020 +0200
+
+    more files deletion. Add thesis
+-----------------------------------
+time: 64.81832560000475
+commit c8085e38cd9b2949c7a87a00f32c41195a18fed7
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sat Oct 10 00:01:51 2020 +0200
+
+    more deletion
+-----------------------------------
+time: 59.55858819998684
+commit 0890fccd7f13ebc43f1b62849950449f8553c061
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sat Oct 10 00:45:23 2020 +0200
+
+    add training.pt
+-----------------------------------
+time: 62.530658999981824
+commit eaa99d41df8917493e87edc3d6f524a7b9dcc954
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Oct 11 01:06:48 2020 +0200
+
+    add packet training.pt
+-----------------------------------
+time: 82.32350430000224
+commit f5fe60c67603aa56a2f40ee1b5c00b1bb6cb9eed
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Oct 11 01:22:48 2020 +0200
+
+    add parts of training.pt.tar.gz
+-----------------------------------
+time: 86.81902939997963
+commit 9f6c0394e91c2083f42405630f4ff88f987250a0
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Sun Oct 11 01:39:03 2020 +0200
+
+    add raw data which simulate MNIST (used in mainNetworks) to archive.
+    Archive saved in parts because of githubs 100M max file size
+-----------------------------------
+time: 63.4472280999762
+time: 66.4267476000241
+commit 66bfafc307ecf3d5d744834975781a8203877856
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Mon Oct 12 00:07:15 2020 +0200
+
+    add mechanism to automatically unpack *ubyte files (MNIST initiating files) if not available
+-----------------------------------
+time: 79.02905949996784
+commit 3be2f3fb25a49c5d7c7115fb0fa6cc780883c596
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Mon Oct 12 00:53:01 2020 +0200
+
+    fix hardcoded path
+-----------------------------------

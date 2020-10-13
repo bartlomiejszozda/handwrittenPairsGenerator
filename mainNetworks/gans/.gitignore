@@ -1,0 +1,9 @@
+*.png
+*.tar
+*.gz
+**runs
+*ubyte
+**data/
+**tf_data/
+generatedMNIST/MNIST/dataset/processed/*
+generatedMNIST/MNIST/dataset/raw/*ubyte

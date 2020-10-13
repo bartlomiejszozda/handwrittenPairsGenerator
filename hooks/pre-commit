@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+from os.path import dirname, abspath, join
+import sys
+
+# Find code directory relative to our directory
+THIS_DIR = dirname(__file__)
+REPO_DIR = abspath(join(THIS_DIR, '..'))
+sys.path.insert(0, REPO_DIR)
+import test.performance.shortGenerationPerformanceTest as performanceTest
+#performanceTestTime = 80
+minTime, maxTime = 50, 120
+performanceTestTime = performanceTest.test(minTime, maxTime)
+if minTime <= performanceTestTime <= maxTime:
+  with open(REPO_DIR + "/showcase/performanceTests/shortGenerationPerformance_EachCommit.txt", 'a') as performanceFile:
+    performanceFile.write("time: " + str(performanceTestTime) + "\n")
+else:
+  sys.exit("performance test result not saved in file because it takes too long or increadibly short. performanceTestTime={}".format(performanceTestTime))

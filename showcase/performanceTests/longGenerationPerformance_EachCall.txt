@@ -1,0 +1,14 @@
+time: 131.61320670001442
+commit 5c926851407456be60684b8adb7267f43a4fe25f
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Wed Sep 2 00:26:55 2020 +0200
+
+    unify generation (one generate method for call after module import and for call using main() method) generatorNetworks/RNN/myGenerate.py
+-----------------------------------
+time: 142.38141060003545
+commit 311dcca82e2baa83e74fd89a9aacb697b1082ba1
+Author: bartlomiejszozda <bartekszozda19@gmail.com>
+Date:   Thu Oct 1 02:54:48 2020 +0200
+
+     renameFiles as import instead of call
+-----------------------------------
