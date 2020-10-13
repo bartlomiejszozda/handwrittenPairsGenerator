@@ -1,8 +1,9 @@
 # thesis project:
-Thesis (only in Polish)
-https://github.com/bartlomiejszozda/handwrittenPairsGenerator/blob/master/thesisDocument/praca_inzynierska_BartlomiejSzozda.pdf  
 Thesis summary (only in Polish)
 https://github.com/bartlomiejszozda/handwrittenPairsGenerator/blob/master/thesisDocument/StreszczeniePracyInzynierskiej_BartlomiejSzozda.pdf  
+Thesis (only in Polish)
+https://github.com/bartlomiejszozda/handwrittenPairsGenerator/blob/master/thesisDocument/praca_inzynierska_BartlomiejSzozda.pdf  
+
 
 Current GAN Network was changed and is quite different than that described in thesis document.
 
@@ -17,6 +18,10 @@ jupyter-notebook
 Change variable 'continueWorking' to 'False'.   
 Change variable 'dataDir' to what you want.   
 Run all cells.  
+
+You can ran GAN network learning from the console:  
+cd REPO/mainNetworks/gans  
+jupyter nbconvert --ExecutePreprocessor.timeout=-1 --to notebook --inplace --execute gans3.ipynb
 
 Check if data generation works (actually not need to run this because generation output is available for GAN Network):  
 cd REPO  
