@@ -5,6 +5,7 @@ Thesis (only in Polish)
 https://github.com/bartlomiejszozda/handwrittenPairsGenerator/blob/master/thesisDocument/praca_inzynierska_BartlomiejSzozda.pdf  
 
 Results:
+
 <img width="690" height="689" alt="2026-11-13-125828_690x689_scrot" src="https://github.com/user-attachments/assets/deceac5d-3628-4780-9f70-3b03a1dfcc86" />
 
 
